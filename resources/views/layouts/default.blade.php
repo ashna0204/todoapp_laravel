@@ -7,7 +7,7 @@
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" >
     @yield("style")
   </head>
-  <body class="d-flex flex-column h-100">
+  <body class="d-flex flex-column h-100 " style="background-color: #FFEEF3;">
     <div class="mt-5">
         @include('include.header')
         @yield("content")
